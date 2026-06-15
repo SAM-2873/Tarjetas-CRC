@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
 
-  document.body.style.height = "100px"; 
+  document.body.style.height = "40000px"; 
 
   const elemenOpa = [
     document.getElementById("back1"),
