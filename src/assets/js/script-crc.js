@@ -66,3 +66,7 @@ function agregarTabla() {
   }
 }
 document.getElementById("Agregar").addEventListener("click", agregarTabla);
+
+function imprimirPDF() {
+  window.print();
+}
