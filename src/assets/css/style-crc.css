@@ -74,7 +74,10 @@ td{
     body {
         background: none;
     }
-    #caja, #cajaTablas {
+    #caja{
+        display: none;
+    }
+    #cajaTablas {
         border: none;
         box-shadow: none;
     }
