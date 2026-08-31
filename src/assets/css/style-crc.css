@@ -1,0 +1,71 @@
+body{
+    min-height: 100vh;
+    background:linear-gradient(#8fafff, #44038a);
+}
+#caja{
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 30px;
+    content: center;
+
+    border-color: #000936;
+    border-style: outset;
+    border-width: 10px;
+
+    background-color: #20085d;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#cajaTablas{
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 30px;
+    content: center;
+
+    border-color: #0a193e7a;
+    border-style: outset;
+    border-width: 6px;
+
+    background-color: #20085d;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 5px;
+
+    background-color: #07236a;
+
+    border-color: #0048ff7a;
+    border-radius: 5px;
+
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #00ddff;
+
+    border-color: #ffffff;
+    border-radius: 8px;
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+table{
+    border-color: #160235;
+}
+tr{
+    background-color: #befaff;
+    border-color: #1a054b;
+}
+td{
+    background-color: #ffffff58;
+    border-color: #1a054b;
+    border-style: solid;
+    border-width: 1px;
+}
